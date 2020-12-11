@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Starbucks</title>
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="main">
+      <div class="circle"></div>
+      <div class="circleTop"></div>
+      <header>
+        <a href="#"
+          ><img src="images/logo.png" class="logo" alt="starbucks-Logo"
+        /></a>
+        <ul>
+          <li><a href=".content">Home</a></li>
+          <li><a href="#">Menu</a></li>
+          <li><a href="#">What's New</a></li>
+          <li><a href=".footer">Contact</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>It's not just Coffee<br />It's<span>Starbucks</span></h2>
+          <p>
+            Lorem ipsum dolor sit amet, justo veniam nostrum et his. Eos brute
+            lucilius suscipiantur ex, tollit volutpat conceptam vix id. Ludus
+            nullam mucius an vel, cum duis modus ad, idque corrumpit constituto
+            ea vel. Usu ad harum dissentias, mundi evertitur neglegentur mei ei.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+        <div class="imgBox">
+          <img src="images/img1.png" class="starbucks" alt="" />
+        </div>
+      </div>
+      <ul class="thumb">
+        <li>
+          <img
+            src="images/thumb1.png"
+            onmouseover="imgSlider('images/img1.png');changeCircleColor('#017143')"
+            alt="drink 1"
+          />
+        </li>
+        <li>
+          <img
+            src="images/thumb2.png"
+            onmouseover="imgSlider('images/img2.png');changeCircleColor('#eb7495')"
+            alt="drink 2"
+          />
+        </li>
+        <li>
+          <img
+            src="images/thumb3.png"
+            onmouseover="imgSlider('images/img3.png');changeCircleColor('#d752b1')"
+            alt="drink 3"
+          />
+        </li>
+      </ul>
+    </section>
+
+    <section class="footer">
+      <ul class="sci">
+        <li>
+          <a href="https://www.facebook.com/Starbucks" target="_blank">
+            <i class="fab fa-facebook"></i
+          ></a>
+          <a href="https://twitter.com/Facebook?s=20" target="_blank">
+            <i class="fab fa-instagram"></i
+          ></a>
+          <a href="https://twitter.com/Starbucks?s=20" target="_blank">
+            <i class="fab fa-twitter"></i
+          ></a>
+        </li>
+      </ul>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
